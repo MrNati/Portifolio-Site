@@ -118,4 +118,7 @@ hr {
     text-align: center;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1.2em;
+    color: aqua;
+    background-color: black;
+    padding: 1px;
 }
