@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-* [Instructions](#Project Overview)
+* [Instructions](#Project-Overview)
 * [Project Live Preview](#livepreview)
 
 ## Project Overview
