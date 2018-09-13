@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#brief-intro {
+    text-align: right;
+}
+
+hr {
+    border-style: solid;
+    border-color:#555555;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#8a8989;
+}
+
+.row {
+    text-align: center;
+    background-color: #e7e7e7;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 805px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.column, a {
+    text-decoration: none;
+    color: rgb(98, 98, 250);
+}
+
+/* Responsive layout - makes layout responsive across all devices.*/
+@media only screen and (min-width: 450px) and (max-width: 499px) {
+    body {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 549px) {
+    body {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 599px) {
+    body {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 699px) {
+    body {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 749px) {
+    body {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 804px) {
+    body {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+    body {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1190px) {
+    body {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+}
+
+@media only screen and (min-width: 1191px) {
+    body {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+#footer {
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.2em;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio Site</title>
+        <link rel="icon" href="images/emeka.jpeg" type="image/jpg" sizes="16x16">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/images.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/modal.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|EB+Garamond|Lato|Raleway|Roboto+Slab|PT+Sans+Narrow" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <!-- My Logo -->
+            <a href="#"><img src="images/emeka.jpeg" alt="Emeka Ananti" id="logo"></a>
+
+            <!-- Brief information -->
+            <div id="brief-intro">
+                <h1 id="home">Emeka Ananti</h1>
+                <h2>Front-End Web Developer</h2>
+                <a href="https://twitter.com/Mr__Nati" target="_blank" class="button button5">Twitter</a>
+                <a href="https://www.linkedin.com/in/emeka-ananti-a87259109/" target="_blank" class="button button5">LinkedIn</a>
+
+                <!-- Open The Modal -->
+                <button id="myBtn" class="button button5">About Me</button>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content aboutMe">
+                        <span class="close">&times;</span>
+                        <p>My name is Emeka Ananti. Gosh! You already know that anyway.</p>
+                        <p>I love coding and trying new stuffs. Generally, I love learning.</p>
+                        <p>I was a scholarship recipient in the <b>Google Udacity Scholarship</b>. But I never made it to the second
+                            phase. So I spent the last couple of months sourcing for funds to enroll for this program.
+                        </p>
+                        <p>I never say "Never". But you can tell that by now. I look forward to learning ALL
+                            this program has to offer. <br><br> Thanks!
+                        </p>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </header>
+
+        <br><hr>
+
+        <main>
+            <img src="images/webs2.jpg" alt="Udacity Programs" id="coverImage">
+            <hr>
+
+            <!-- The Grid -->
+            <article class="row">
+                <h3>Featured Work</h3>
+
+                <section class="column">
+                    <a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001">
+                        <img src="images/image1.jpg" alt="" class="section-image">
+                        <h4>Front End Developer</h4>
+                        <p>In the Front End Developer Nanodegree program, you will complete five projects and build a resume-worthy portfolio...</p>
+                    </a>
+                </section>
+
+                <section class="column">
+                    <a href="https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024">
+                        <img src="images/image2.jpg" alt="" class="section-image">
+                        <h4>Mobile Web Specialist</h4>
+                        <p>Become a Mobile Web Specialist. Prepare for Google's Mobile Web Specialist certification with courses from Google...</p>
+                    </a>
+                </section>
+
+                <section class="column">
+                    <a href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004">
+                        <img src="images/image3.jpg" alt="" class="section-image">
+                        <h4>Full Stack Developer</h4>
+                        <p>In this program, you’ll prepare for a job as a Full Stack Web Developer, and learn to create complex server-side...</p>
+                    </a>
+                </section>
+                
+            </article>
+
+        </main>
+
+        <hr>
+
+        <footer id="footer">
+            <p>Return to <a href="#home">Homepage</a></p>
+            <p>Please NOTE that information provided on this website belongs to <a href="https://www.udacity.com/"><b>Udacity.</b></a>
+                <br>No Copyright violation intended.<br> MNWeb, 2018.
+            </p>
+        </footer>
+
+        <!--Link to JavaScript-->
+        <script src="myScript/modal.js"></script>
+
+    </body>
+
+</html>
