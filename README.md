@@ -1,10 +1,5 @@
 # Portifolio Site
 
-## Table of Contents
-
-* [Instructions](#Project-Overview)
-* [Project Live Preview](#livepreview)
-
 ## Project Overview
 
 For this project, I built a Portfolio Website. 
