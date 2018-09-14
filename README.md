@@ -4,7 +4,7 @@
 
 For this project, I built a Portfolio Website. 
 
-I was provided with a design mockup as a PDF-file, and must replicate that design in HTML and CSS. I developed a responsive website that will display images, descriptions and links to each of the portfolio projects I will be completing through the course of my Nanodegree program.
+I was provided with a design mockup as a PDF-file, and must replicate that design in HTML and CSS. I developed a responsive website that will display images, descriptions and links to each of my portfolio projects.
 
 ## Project Live Preview
 

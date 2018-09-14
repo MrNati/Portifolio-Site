@@ -12,8 +12,7 @@ body {
 }
 
 hr {
-    border-style: solid;
-    border-color:#555555;
+    border: 1px solid #555;
 }
 
 /* Create three equal columns that floats next to each other */
@@ -21,9 +20,6 @@ hr {
     float: left;
     width: 33.33%;
     padding: 15px;
-    border-style: solid;
-    border-width: 1px;
-    border-color:#8a8989;
 }
 
 .row {

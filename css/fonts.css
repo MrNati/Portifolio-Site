@@ -1,17 +1,19 @@
+/*Tried using font shorthand for both size and family, not responding in google fonts*/
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.2em;
-    color: #555555;
+    color: #555;
 }
 
 h2 {
     font-family: 'EB Garamond', serif;
     font-size: 1.5em;
-    color: #555555;
+    color: #555;
 }
 
 .button {
-    background-color: #555555;
+    background-color: #555;
     border: none;
     color: white;
     padding: 10px;
