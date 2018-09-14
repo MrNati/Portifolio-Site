@@ -3,8 +3,8 @@
 }
 
 body {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 #brief-intro {
@@ -118,7 +118,7 @@ hr {
     text-align: center;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1.2em;
-    color: aqua;
-    background-color: black;
+    color: #0b7ba3;
+    background-color: #d2d1d2;
     padding: 1px;
 }
